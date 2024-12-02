@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Nitika Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#main-container">About Me</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#education">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="# main-container">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container" id="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="nitika.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Nitika</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I’m an aspiring data analyst with  data analysis, visualization, and statistical modeling. Currently pursuing a B.Tech in Computer Science, I have hands-on experience in data preprocessing, predictive modeling, and insightful visualizations using tools like Pandas, Scikit-learn, and MongoDB. I’m passionate about uncovering actionable insights from data to drive impactful decisions.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Nitikachoudhary66" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitika-choudhary-274223224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:choudharynitika259@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-regular fa-envelope"></i></a>
+
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="location.href='#contact'">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    
+                    <h3>Secondary School</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, officia omnis. Libero repellat iure exercitationem hic sequi. Fugiat, atque odit voluptatem ipsa unde ad nam ea iste at. Quam, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    
+                    <h3>Higher Secondary School</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, officia omnis. Libero repellat iure exercitationem hic sequi. Fugiat, atque odit voluptatem ipsa unde ad nam ea iste at. Quam, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2025</div>
+                <div class="timeline-content">
+                    
+                    <h3>Graduation (B.Tech in Computer Science)</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, officia omnis. Libero repellat iure exercitationem hic sequi. Fugiat, atque odit voluptatem ipsa unde ad nam ea iste at. Quam, reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-up" data-aos-duration="1500">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+                <p>Python, JavaScript</p>
+            </div>
+            <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <i class="fa-solid fa-database"></i>
+                <h3>Data Analysis</h3>
+                <p>data cleaning, preprocessing, and visualization using Pandas, NumPy, and Matplotlib.</p>
+            </div>
+            <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript for building  web applications.</p>
+            </div>
+            <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <i class="fa-solid fa-language"></i>
+                <h3>Communication languages</h3>
+                <p>English, Hindi</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-container">
+            <div class="project" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project Name 1</h3>
+                <p>A brief description of the project highlighting its purpose, tools used, and outcome.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project Name 2</h3>
+                <p>A brief description of the project highlighting its purpose, tools used, and outcome.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="project" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project Name 3</h3>
+                <p>A brief description of the project highlighting its purpose, tools used, and outcome.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1500">
+                <h3>Get in Touch</h3>
+                <p>If you have any questions or would like to work together, feel free to reach out!</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:choudharynitika259@gmail.com">choudharynitika259@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+11234567890">+91 9015440989</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps?q=City+State+Country" target="_blank">Paonta sahib, H.P,India</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="https://formspree.io/f/mzzbklvj" method="POST" class="contact-form" data-aos="fade-left" data-aos-duration="1500">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section><br><br><br><br>
+    <hr>
+    <footer>
+        <div class="footer-container">
+           
+           <div>
+              <h3>Quick Links</h3>
+              <ul>
+               <li> <a href="# main-container">About Me</a></li>
+               <li> <a href="#education">Education</a></li>
+               <li> <a href="#skills">Skills</a></li>
+               <li> <a href="#projects">projects</a></li>
+               <li>  <a href="#contact">Contact</a></li>
+              </ul>
+           </div>
+           <div>
+              <h3>Follow Us</h3>
+              <ul>
+                <li><a href="https://github.com/Nitikachoudhary66" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nitika-choudhary-274223224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li> <a href="mailto:choudharynitika259@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-regular fa-envelope"></i></a></li>
+              </ul>
+           </div>
+        </div>
+        <div class="footer-bottom">
+           <p>&copy; 2024 Nitika Portfolio. All Rights Reserved.</p>
+        </div>
+     </footer>
+     
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 100,         
+      duration: 1200,      
+      easing: 'ease-in-out',
+      once: true });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
