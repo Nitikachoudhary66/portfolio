@@ -22,6 +22,9 @@ Highlights
 Interactive Typewriter Animation: A JavaScript-driven effect introducing my professional roles dynamically.
 Contact Form: Easily connect with me using the Formspree-powered contact form.
 Modern UI/UX: Designed with user-centric principles for a clean, intuitive interface.
+
+
+
 Future Enhancements
 Add more sections to showcase additional projects and skills.
 Implement a blog section to share technical articles.
